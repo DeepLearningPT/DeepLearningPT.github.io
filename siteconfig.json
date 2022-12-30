@@ -1,10 +1,10 @@
 {
   "title": "DLSPT Site",
   "description": "This is Deep Learning Sessions Portugal website.",
-  "ogTitle": "DLSPT's Site",
+  "ogTitle": "DeepLearningPT's Site",
   "ogType": "website",
-  "ogUrl": "https://www.goncalomcorreia.com",
-  "ogImage": "https://www.goncalomcorreia.com/profile.jpg",
+  "ogUrl": "https://DeepLearningPT.github.io/",
+  "ogImage": "https://DeepLearningPT.github.io/profile.jpg",
   "themeColor": "white",
   "contact": {
     "githubURL": "https://github.com/DeepLearningPT",
