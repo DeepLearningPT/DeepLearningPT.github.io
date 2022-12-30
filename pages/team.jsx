@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 function Food({
-	dishes, config,
+	team, config,
 }) {
 	return (
 		<BaseLayout {...config}>
@@ -14,7 +14,7 @@ function Food({
 			<div className="l-container">
 				<section>
 					<h2>Team</h2>
-					<FoodGrid items={dishes} />
+					<FoodGrid items={team} />
 				</section>
 			</div>
 			<Footer config={config} />
