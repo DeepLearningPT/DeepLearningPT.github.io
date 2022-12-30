@@ -1,0 +1,21 @@
+.Top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    text-align: right;
+  }
+
+  a {
+    font-family: monospace;
+    color: var(--body);
+    text-decoration: none;
+  }
+}
+
+.Description {
+  margin: 0;
+  margin-top: 1rem;
+}

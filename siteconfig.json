@@ -1,0 +1,17 @@
+{
+  "title": "DLSPT Site",
+  "description": "This is Deep Learning Sessions Portugal website.",
+  "ogTitle": "DLSPT's Site",
+  "ogType": "website",
+  "ogUrl": "https://www.goncalomcorreia.com",
+  "ogImage": "https://www.goncalomcorreia.com/profile.jpg",
+  "themeColor": "white",
+  "contact": {
+    "githubURL": "https://github.com/DeepLearningPT",
+    "linkedinURL": "https://www.linkedin.com/company/deeplearningpt/",
+    "meetupURL": "https://www.meetup.com/Deep-Learning-Sessions-Lisboa/",
+    "twitterURL": "https://twitter.com/DeepLearningPT",
+    "youtubeURL": "https://www.youtube.com/@DeepLearningPT",
+    "mediumURL": "https://medium.com/deep-learning-sessions-lisboa"
+  }
+}

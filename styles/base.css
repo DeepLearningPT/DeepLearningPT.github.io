@@ -1,0 +1,65 @@
+@import "~sanitize.css";
+@import "~sanitize.css/forms.css";
+@import "~sanitize.css/typography.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@800&display=swap");
+
+:root {
+  --containerWidth: 700px;
+  --body: rgba(38, 50, 56, 1);
+  --bodyFaded: rgba(38, 50, 56, 0.2);
+  /* --main: #1565c0; */
+  --main: #EC1B40;
+  --secondary: #e65100;
+}
+
+body {
+  color: var(--body);
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2 {
+  /* color: var(--secondary); */
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body,
+#__next,
+.l-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--main);
+}
+
+section + section {
+  margin-top: 3rem;
+}
+
+section:last-child {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+section h2 {
+  margin-bottom: 0rem;
+}
+
+code {
+  font-size: 0.9rem;
+}
+
+.l-container {
+  display: block;
+  max-width: var(--containerWidth);
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}

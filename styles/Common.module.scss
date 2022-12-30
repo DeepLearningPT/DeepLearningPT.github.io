@@ -1,0 +1,127 @@
+.Header,
+.Footer {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  background-color: white;
+
+  ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--body);
+    font-weight: bold;
+    transition: color 0.25s ease-in-out;
+
+    &:hover {
+      color: var(--main);
+    }
+  }
+}
+
+.Header {
+  // border-bottom: 1px solid var(--bodyFaded);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+
+  ol {
+    flex-direction: column;
+
+    a {
+      width: 100%;
+      display: inline-block;
+      padding: 0.25rem 0;
+    }
+
+    @media screen and (min-width: "600px") {
+      flex-direction: row;
+
+      li + li {
+        margin-left: 1rem;
+      }
+
+      > li:last-child {
+        margin-left: auto;
+      }
+    }
+  }
+
+  ol > li:first-child a {
+    color: var(--main);
+  }
+}
+
+.Footer {
+  margin-top: auto;
+  font-size: 0.7rem;
+  border-top: 1px solid var(--bodyFaded);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  ol {
+    flex-direction: row;
+
+    li + li {
+      margin-left: 1rem;
+    }
+
+    > li:last-child {
+      margin-left: auto;
+    }
+  }
+}
+
+.Button {
+  border: 1px solid rgb(170, 170, 170);
+  text-decoration: none;
+  display: flex;
+  font-size: 0.9em;
+  padding: 0.23em 0.6em;
+  color: var(--body);
+}
+
+.CitationsButton {
+  @extend .Button;
+  border: 1px solid #7cb342;
+  text-decoration: none;
+  color: #7cb342;
+  padding: 0;
+
+  span {
+    padding: 0.23em 0.6em;
+  }
+
+  span + span {
+    border-left: 1px solid #7cb342;
+  }
+}
+
+.RedButton {
+  @extend .Button;
+  color: #e53935;
+  border-color: #e53935;
+}
+
+.BlueButton {
+  @extend .Button;
+  color: #303f9f;
+  border-color: #303f9f;
+}
+
+.OrangeButton {
+  @extend .Button;
+  color: #f57c00;
+  border-color: #f57c00;
+}
+
+.Card {
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: white;
+}
