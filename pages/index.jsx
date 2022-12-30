@@ -15,7 +15,7 @@ function Home({
 			<div className="l-container">
 
 				<section className={s.Intro}>
-					<img src="/profile.jpg" alt="DLSPT" />
+					<img src="/profile.jpg" alt="DeepLearningPT" />
 
 					<div>
 						<h1>Welcome to Deep Learning Sessions Portugal!</h1>
