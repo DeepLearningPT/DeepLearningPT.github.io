@@ -1,10 +1,9 @@
 ---
 title: NeurIPS 2021
-date: "2021-01-01"
+date: "2021-12-01"
 photos:
-  - profile.jpg
-  - goncalo-correia.jpg
-  - goncalo-correia.jpg
-  - goncalo-correia.jpg
-  - goncalo-correia.jpg
+  - neurips2021/20211218_184145.NEF
+  - neurips2021/20211218_194802.NEF
+  - neurips2021/20211219_170150.NEF
+  - neurips2021/20211219_185447.NEF
 ---
