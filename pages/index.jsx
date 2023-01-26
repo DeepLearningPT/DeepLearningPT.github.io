@@ -33,6 +33,27 @@ function Home({
 				</section>
 
 				<section>
+					<h2>Next events:</h2>
+					<ol className={s.NextEvents}>
+						{/* <li>
+							<time datetime="2018-07-07">
+								July 7
+							</time>
+							<a href="google.com" target="_blank" rel="noreferrer">
+								Cool Event 1
+							</a>
+						</li> */}
+
+						<li>
+							<time datetime="2023-01-27">January 27th, 2023</time>
+							<a href="https://www.meetup.com/pt-BR/deep-learning-sessions-lisboa/events/290916427/" target="_blank" rel="noreferrer">
+								Deep Learning is Alive: Trends from 2022 to 2023 - Round Table
+							</a>
+						</li>
+					</ol>
+				</section>
+
+				<section>
 					<h2>Where you can find us:</h2>
 					<ol className={s.FindUs}>
 						<li>

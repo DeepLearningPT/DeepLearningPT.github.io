@@ -13,7 +13,7 @@ function Home({
 
 			<div className="l-container">
 				<section>
-					<h2>Blog</h2>
+					<h2>Initiatives</h2>
 					<BlogEntries items={blogEntries} />
 				</section>
 			</div>

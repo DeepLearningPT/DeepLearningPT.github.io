@@ -17,12 +17,6 @@ function BlogEntries({ items }) {
 			}) => (
 				<li className={`${s.Item} ${s.ItemWithoutBorders}`} key={externalUrl}>
 					<a href={externalUrl} target="_blank" rel="noreferrer">
-						<div>
-							<time className={s.Context}>
-								{date}
-							</time>
-						</div>
-
 						<h3 className={s.Title}>
 							{title}
 						</h3>

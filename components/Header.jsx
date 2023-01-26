@@ -20,9 +20,9 @@ function Header({ config }) {
 						</Link>
 					</li>
 					<li>
-						<Link href="/blog">
+						<Link href="/initiatives">
 							<a>
-								Blog
+								Initiatives
 							</a>
 						</Link>
 					</li>

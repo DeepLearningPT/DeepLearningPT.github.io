@@ -52,8 +52,8 @@ export async function loadAllContentFromFiles() {
 	const events = ((context) => getFileContentFromContext(context, '/events/'))(
 		require.context('../content/events', true, /\.md$/),
 	);
-	const blogEntries = ((context) => getFileContentFromContext(context, '/blog/'))(
-		require.context('../content/blog', true, /\.md$/),
+	const blogEntries = ((context) => getFileContentFromContext(context, '/initiatives/'))(
+		require.context('../content/initiatives', true, /\.md$/),
 	);
 	const team = ((context) => getFileContentFromContext(context, '/team/'))(
 		require.context('../content/team', true, /\.md$/),
