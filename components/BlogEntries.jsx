@@ -13,7 +13,7 @@ function BlogEntries({ items }) {
 	return (
 		<ol className={s.List}>
 			{orderedEducation.map(({
-				title, date, externalUrl, markdownBody,
+				title, externalUrl, markdownBody,
 			}) => (
 				<li className={`${s.Item} ${s.ItemWithoutBorders}`} key={externalUrl}>
 					<a href={externalUrl} target="_blank" rel="noreferrer">
