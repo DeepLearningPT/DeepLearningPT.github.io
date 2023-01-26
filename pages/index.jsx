@@ -33,7 +33,7 @@ function Home({
 				</section>
 
 				<section>
-					<h2>Next events:</h2>
+					<h2>Upcoming events:</h2>
 					<ol className={s.NextEvents}>
 						{/* <li>
 							<time dateTime="2018-07-07">
