@@ -43,11 +43,10 @@ function Home({
 								Cool Event 1
 							</a>
 						</li> */}
-
 						<li>
-							<time dateTime="2023-01-27">January 27th, 2023</time>
-							<a href="https://www.meetup.com/pt-BR/deep-learning-sessions-lisboa/events/290916427/" target="_blank" rel="noreferrer">
-								Deep Learning is Alive: Trends from 2022 to 2023 - Round Table
+							<time dateTime="2023-01-15">February 15th, 2023</time>
+							<a href="https://www.meetup.com/Deep-Learning-Sessions-Lisboa/" target="_blank" rel="noreferrer">
+								Meetup: Federated Deep Learning - Daniel Lopes
 							</a>
 						</li>
 					</ol>
