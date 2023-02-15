@@ -91,6 +91,12 @@ function Home({
 								<span>Medium</span>
 							</a>
 						</li>
+						<li>
+							<a href={config.contact.discordURL} target="_blank" rel="noreferrer">
+								<i className="fab fa-discord" />
+								<span>Discord</span>
+							</a>
+						</li>
 					</ol>
 				</section>
 
