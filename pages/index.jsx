@@ -44,9 +44,9 @@ function Home({
 							</a>
 						</li> */}
 						<li>
-							<time dateTime="2023-01-15">February 15th, 2023</time>
+							<time dateTime="2023-03-15">March 15th, 2023</time>
 							<a href="https://www.meetup.com/Deep-Learning-Sessions-Lisboa/" target="_blank" rel="noreferrer">
-								Meetup: Federated Deep Learning - Daniel Lopes
+								Meetup #3: Attention on Medical Applications - Tiago Gonçalves
 							</a>
 						</li>
 					</ol>
