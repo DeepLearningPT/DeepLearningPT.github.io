@@ -48,7 +48,7 @@ function Home({
 								April 12th, 2023
 							</time>
 							<a href="https://www.meetup.com/deep-learning-sessions-lisboa/events/292692196/" target="_blank" rel="noreferrer">
-								Meetup #4: The Rise of AI: Opportunities, Risks, and Regulation in the EU, with Magda Cocco
+								Meetup #4 - The Rise of AI: Opportunities, Risks, and Regulation in the EU, with Magda Cocco
 							</a>
 						</li>
 					</ol>
