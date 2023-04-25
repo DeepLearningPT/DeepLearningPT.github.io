@@ -51,6 +51,14 @@ function Home({
 								Meetup #4 - The Rise of AI: Opportunities, Risks, and Regulation in the EU, with Magda Cocco
 							</a>
 						</li> */}
+						<li>
+							<time dateTime="2023-05-03">
+								May 3rd, 2023
+							</time>
+							<a href="https://www.meetup.com/pt-BR/deep-learning-sessions-lisboa/events/293133152/" target="_blank" rel="noreferrer">
+								Meetup #4 - Scaling Laws for Multilingual Neural Machine Translation, with Patrick Fernandes
+							</a>
+						</li>
 					</ol>
 				</section>
 
