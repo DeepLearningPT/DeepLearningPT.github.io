@@ -9,7 +9,7 @@ function EventGrid({ items }) {
 		<ol className={s.EventList}>
 			{orderedItems.map(({ title, photos, slug }) => (
 				<li className={s.Event} key={slug}>
-					<h3>{title}</h3>
+					{ {url}?.name!="undefined" ? <a href={url}><h3>{title}</h3></a>} : <h3>{title}</h3}>
 					<div>
 						{photos.map((p) => <img src={p} alt="" />)}
 					</div>

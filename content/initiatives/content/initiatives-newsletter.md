@@ -1,5 +1,5 @@
 ---
-title: "Newsletters"
+title: "📨 Newsletters"
 externalUrl: "https://deeplearningptnews.nocodeletters.com/#preview-newsletters"
 date: "2023-01-17"
 ---

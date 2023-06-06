@@ -1,5 +1,5 @@
 ---
-title: "Conference Meetups"
+title: "👁️‍🗨️ Conference Watching Meetups"
 externalUrl: "https://www.meetup.com/Deep-Learning-Sessions-Lisboa/"
 date: "2023-01-19"
 ---

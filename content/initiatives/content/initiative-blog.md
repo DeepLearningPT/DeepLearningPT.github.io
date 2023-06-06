@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
+title: "📃 Blog Posts"
 externalUrl: "https://medium.com/deep-learning-sessions-lisboa/"
 date: "2023-01-18"
 ---

@@ -52,7 +52,16 @@ export async function loadAllContentFromFiles() {
 	const events = ((context) => getFileContentFromContext(context, '/events/'))(
 		require.context('../content/events', true, /\.md$/),
 	);
-	const blogEntries = ((context) => getFileContentFromContext(context, '/initiatives/'))(
+	const eventsInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/events'))(
+		require.context('../content/initiatives', true, /\.md$/),
+	);
+	const challengesInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/challenges'))(
+		require.context('../content/initiatives', true, /\.md$/),
+	);
+	const contentInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/content'))(
+		require.context('../content/initiatives', true, /\.md$/),
+	);
+	const toolsInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/tools'))(
 		require.context('../content/initiatives', true, /\.md$/),
 	);
 	const team = ((context) => getFileContentFromContext(context, '/team/'))(
@@ -62,7 +71,10 @@ export async function loadAllContentFromFiles() {
 
 	return {
 		events,
-		blogEntries,
+		eventsInitiatives,
+		challengesInitiatives,
+		contentInitiatives,
+		toolsInitiatives,
 		team,
 		codeOfConductContent: codeOfConductFileContents.markdownBody,
 		config: config.default,
@@ -80,7 +92,10 @@ export const allContentDefaultProps = {
 export const allContentPropTypes = {
 	codeOfConductContent: PropTypes.string,
 	events: PropTypes.array,
-	blogEntries: PropTypes.array,
+	eventsInitiatives: PropTypes.array,
+	challengesInitiatives: PropTypes.array,
+	contentInitiatives: PropTypes.array,
+	toolsInitiatives: PropTypes.array,
 	team: PropTypes.array,
 	config: PropTypes.object,
 };

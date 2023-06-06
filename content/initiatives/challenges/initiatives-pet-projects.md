@@ -1,5 +1,5 @@
 ---
-title: "Pet Projects"
+title: "🐶 Pet Projects"
 externalUrl: "https://forms.gle/eiW28TGETBu6F4ME7"
 date: "2023-01-16"
 ---
