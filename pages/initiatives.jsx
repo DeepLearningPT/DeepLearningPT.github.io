@@ -14,17 +14,17 @@ function Home({
 			<div className="l-container">
 				<section>
 					<h2>Initiatives</h2>
-						<h3>Events</h3>
-						<Initiatives items={eventsInitiatives}/>
+					<h3>Events</h3>
+					<Initiatives items={eventsInitiatives} />
 
-						<h3>Challenges</h3>
-						<Initiatives items={challengesInitiatives}/>
+					<h3>Challenges</h3>
+					<Initiatives items={challengesInitiatives} />
 
-						<h3>Content</h3>
-						<Initiatives items={contentInitiatives}/>
+					<h3>Content</h3>
+					<Initiatives items={contentInitiatives} />
 
-						<h3>Tools</h3>
-						<Initiatives items={toolsInitiatives}/>
+					<h3>Tools</h3>
+					<Initiatives items={toolsInitiatives} />
 				</section>
 			</div>
 			<Footer config={config} />
