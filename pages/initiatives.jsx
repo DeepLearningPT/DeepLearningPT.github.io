@@ -16,19 +16,13 @@ function Home({
 					<h2>Initiatives</h2>
 					<h3>Events</h3>
 					<Initiatives items={eventsInitiatives} />
-					<pre> 
-					
-					</pre>
+					<br/><br/>
 					<h3>Challenges</h3>
 					<Initiatives items={challengesInitiatives} />
-					<pre> 
-					
-					</pre>
+					<br/><br/>
 					<h3>Content</h3>
 					<Initiatives items={contentInitiatives} />
-					<pre> 
-					
-					</pre>
+					<br/><br/>
 					<h3>Tools</h3>
 					<Initiatives items={toolsInitiatives} />
 				</section>
