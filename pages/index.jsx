@@ -44,14 +44,6 @@ function Home({
 							</a>
 						</li> */}
 						<li>
-							<time dateTime="2023-05-24">
-								May 24th, 2023
-							</time>
-							<a href="https://www.meetup.com/deep-learning-sessions-lisboa/events/292692196/" target="_blank" rel="noreferrer">
-								Meetup #5 - The Rise of AI: Opportunities, Risks, and Regulation in the EU, with Magda Cocco, Iakovina Kindylidi, and André Martins
-							</a>
-						</li>
-						<li>
 							<time dateTime="2023-05-31">
 								May 31st, 2023
 							</time>
