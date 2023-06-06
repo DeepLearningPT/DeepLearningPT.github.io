@@ -53,16 +53,16 @@ export async function loadAllContentFromFiles() {
 		require.context('../content/events', true, /\.md$/),
 	);
 	const eventsInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/events'))(
-		require.context('../content/initiatives', true, /\.md$/),
+		require.context('../content/initiatives/events', true, /\.md$/),
 	);
 	const challengesInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/challenges'))(
-		require.context('../content/initiatives', true, /\.md$/),
+		require.context('../content/initiatives/challenges', true, /\.md$/),
 	);
 	const contentInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/content'))(
-		require.context('../content/initiatives', true, /\.md$/),
+		require.context('../content/initiatives/content', true, /\.md$/),
 	);
 	const toolsInitiatives = ((context) => getFileContentFromContext(context, '/initiatives/tools'))(
-		require.context('../content/initiatives', true, /\.md$/),
+		require.context('../content/initiatives/tools', true, /\.md$/),
 	);
 	const team = ((context) => getFileContentFromContext(context, '/team/'))(
 		require.context('../content/team', true, /\.md$/),
