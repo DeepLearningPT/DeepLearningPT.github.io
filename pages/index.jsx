@@ -43,14 +43,7 @@ function Home({
 								Cool Event 1
 							</a>
 						</li> */}
-						<li>
-							<time dateTime="2023-05-31">
-								May 31st, 2023
-							</time>
-							<a href="https://www.meetup.com/pt-BR/deep-learning-sessions-lisboa/events/293478365/" target="_blank" rel="noreferrer">
-								Meetup #6 - Deep Learning aligned with Type Design, with Luís Gonçalo
-							</a>
-						</li>
+
 					</ol>
 				</section>
 
