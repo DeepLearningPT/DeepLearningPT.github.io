@@ -1,6 +1,6 @@
 import { allContentDefaultProps, allContentPropTypes, loadAllContentFromFiles } from '../utils';
 import BaseLayout from '../layouts/Base';
-import FoodGrid from '../components/TeamGrid';
+import TeamGrid from '../components/TeamGrid';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -14,7 +14,12 @@ function Food({
 			<div className="l-container">
 				<section>
 					<h2>Team</h2>
-					<FoodGrid items={team} />
+					<TeamGrid items={team} />
+				</section>
+
+				<section>
+					<h2>Former Team Members</h2>
+					<TeamGrid items={oldTeam} /> {/* Use FoodGrid or another grid component for old team members */}
 				</section>
 			</div>
 			<Footer config={config} />
