@@ -16,11 +16,7 @@ function Food({
 					<h2>Team</h2>
 					<TeamGrid items={team} />
 				</section>
-
-				<section>
-					<h2>Former Team Members</h2>
-					<TeamGrid items={oldTeam} /> {/* Use FoodGrid or another grid component for old team members */}
-				</section>
+				
 			</div>
 			<Footer config={config} />
 		</BaseLayout>
