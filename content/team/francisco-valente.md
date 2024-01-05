@@ -1,6 +1,6 @@
 ---
 name: Francisco Valente
 photo: francisco-valente.jpg
-linkedinUrl: 
+linkedinUrl: https://www.linkedin.com/in/pfrancisco-valente
 bio: <strong>Francisco Valente</strong> 
 ---
