@@ -8,10 +8,10 @@ function TeamGrid({ items }) {
 	return (
 		<ol className={s.TeamList}>
 			{orderedItems.map(({
-				name, photo, slug, bio, linkedin_url,
+				name, photo, slug, bio, linkedinUrl,
 			}) => (
 				<li className={s.TeamMember} key={slug}>
-					<a href={linkedin_url}>
+					<a href={linkedinUrl}>
 						<img src={photo} alt={name} />
 					</a>
 					<div>
