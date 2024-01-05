@@ -1,6 +1,6 @@
 ---
 name: Vasco Lopes
 photo: vasco-lopes.jpg
-url: 
+linkedin_url: 
 bio: <strong>Vasco Lopes</strong> 
 ---
