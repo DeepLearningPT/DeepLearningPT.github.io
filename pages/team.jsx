@@ -16,7 +16,6 @@ function Food({
 					<h2>Team</h2>
 					<TeamGrid items={team} />
 				</section>
-				
 			</div>
 			<Footer config={config} />
 		</BaseLayout>
