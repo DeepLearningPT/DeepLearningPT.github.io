@@ -9,7 +9,7 @@
         "shell": {
           "args": ["--login"]
         }
-      },
+      }
     },
     {
       "command": "rvm use 3.0.5; bundle exec jekyll serve",
@@ -19,7 +19,7 @@
         "shell": {
           "args": ["--login"]
         }
-      },
-    },
+      }
+    }
   ]
 }
