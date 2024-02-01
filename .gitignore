@@ -1,4 +1,6 @@
 .env
+out
+_*
 
 # dependencies
 /node_modules

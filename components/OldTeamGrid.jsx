@@ -12,7 +12,7 @@ function OldTeamGrid({ items }) {
 			}) => (
 				<li className={s.TeamMember} key={slug}>
 					<a href={linkedinUrl}>
-						<img src={photo} alt={name} style={{grayscale: .7}}/>
+						<img src={photo} alt={name} style={{ grayscale: 0.7 }} />
 					</a>
 				</li>
 			))}

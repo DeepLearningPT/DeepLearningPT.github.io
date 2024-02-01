@@ -15,7 +15,11 @@ function TeamGrid({ items }) {
 						<img src={photo} alt={name} />
 					</a>
 					<div>
-						<p dangerouslySetInnerHTML={{ __html: bio }} />
+						<p>
+							<strong>{name}</strong>
+							&nbsp;{bio}
+							&nbsp;<a href={linkedinUrl}>LinkedIn</a>
+						</p>
 					</div>
 				</li>
 			))}
