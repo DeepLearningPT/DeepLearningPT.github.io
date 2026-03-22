@@ -75,6 +75,12 @@ function Home({
 							</a>
 						</li>
 						<li>
+							<a href={config.contact.instagramURL} target="_blank" rel="noreferrer">
+								<i className="fab fa-instagram" />
+								<span>Instagram</span>
+							</a>
+						</li>
+						<li>
 							<a href={config.contact.githubURL} target="_blank" rel="noreferrer">
 								<i className="fab fa-github" />
 								<span>GitHub</span>
@@ -84,12 +90,6 @@ function Home({
 							<a href={config.contact.mediumURL} target="_blank" rel="noreferrer">
 								<i className="fab fa-medium" />
 								<span>Medium</span>
-							</a>
-						</li>
-						<li>
-							<a href={config.contact.discordURL} target="_blank" rel="noreferrer">
-								<i className="fab fa-discord" />
-								<span>Discord</span>
 							</a>
 						</li>
 					</ol>

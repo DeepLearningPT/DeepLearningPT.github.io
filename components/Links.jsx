@@ -9,10 +9,10 @@ function Links({ contact }) {
 		meetupURL,
 		twitterURL,
 		youtubeURL,
+		instagramURL,
 		mediumURL,
-		discordURL,
 	} = contact;
-	const showLinks = contact && (githubURL || linkedinURL || meetupURL || twitterURL || youtubeURL || mediumURL || discordURL);
+	const showLinks = contact && (githubURL || linkedinURL || meetupURL || twitterURL || youtubeURL || instagramURL || mediumURL);
 	return showLinks ? (
 		<ul className={s.Links}>
 			{githubURL && (
@@ -50,17 +50,17 @@ function Links({ contact }) {
 					</a>
 				</li>
 			)}
+			{instagramURL && (
+				<li>
+					<a target="_blank" href={instagramURL} rel="noreferrer">
+						<i className="fab fa-instagram" />
+					</a>
+				</li>
+			)}
 			{mediumURL && (
 				<li>
 					<a target="_blank" href={mediumURL} rel="noreferrer">
 						<i className="fab fa-medium" />
-					</a>
-				</li>
-			)}
-			{discordURL && (
-				<li>
-					<a target="_blank" href={discordURL} rel="noreferrer">
-						<i className="fab fa-discord" />
 					</a>
 				</li>
 			)}
